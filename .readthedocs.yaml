@@ -17,3 +17,12 @@ submodules:
   include:
     - besmarts
   recursive: true
+
+python:
+  install:
+    - method: pip
+      path: besmarts/besmarts-core/python
+      extra_requirements:
+        - rdkit
+        - scipy
+
