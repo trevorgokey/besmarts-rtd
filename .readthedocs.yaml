@@ -12,3 +12,8 @@ build:
 
 sphinx:
   configuration: besmarts/doc/conf.py
+
+submodules:
+  include:
+    - besmarts
+  recursive: true
