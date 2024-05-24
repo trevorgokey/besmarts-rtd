@@ -1,3 +1,4 @@
 [submodule "besmarts"]
 	path = besmarts
 	url = https://github.com/trevorgokey/besmarts
+    branch = main
