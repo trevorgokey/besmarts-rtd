@@ -26,5 +26,7 @@ python:
       path: besmarts/besmarts-rdkit/python
     - method: pip
       path: besmarts/besmarts-scipy/python
+    - method: pip
+      path: besmarts/besmarts-openmm/python
 
 
