@@ -19,8 +19,8 @@ submodules:
   recursive: true
 
 python:
-  - requirements: requirements.txt
   install:
+    - requirements: requirements.txt
     - method: pip
       path: besmarts/besmarts-core/python
     - method: pip
