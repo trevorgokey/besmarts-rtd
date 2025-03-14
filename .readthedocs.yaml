@@ -20,7 +20,7 @@ submodules:
 
 python:
   install:
-    - requirements: requirements.txt
+    - requirements: besmarts/doc/requirements.txt
     - method: pip
       path: besmarts/besmarts-core/python
     - method: pip
