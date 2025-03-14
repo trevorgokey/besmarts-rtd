@@ -19,6 +19,7 @@ submodules:
   recursive: true
 
 python:
+  - requirements: requirements.txt
   install:
     - method: pip
       path: besmarts/besmarts-core/python
@@ -26,6 +27,8 @@ python:
       path: besmarts/besmarts-rdkit/python
     - method: pip
       path: besmarts/besmarts-scipy/python
+    - method: pip
+      path: besmarts/besmarts-openmm/python
     - method: pip
       path: besmarts/besmarts-openmm/python
 
